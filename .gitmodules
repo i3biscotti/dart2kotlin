@@ -1,0 +1,9 @@
+[submodule "dart2kotlin-frontend"]
+	path = dart2kotlin-frontend
+	url = git@github.com:i3biscotti/dart2kotlin-frontend.git
+[submodule "dart2ast-engine"]
+	path = dart2ast-engine
+	url = git@github.com:i3biscotti/dart2ast-engine.git
+[submodule "kotlin2ast-engine"]
+	path = kotlin2ast-engine
+	url = git@github.com:i3biscotti/kotlin2ast-engine.git
