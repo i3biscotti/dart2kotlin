@@ -1,0 +1,20 @@
+services:
+  ui:
+    build: 
+      context: dart2kotlin-frontend
+      dockerfile: Dockerfile
+    ports:
+      - 8501:8501
+    depends_on:
+      - dart2ast
+      - kotlin2ast
+
+  dart2ast:
+    build: 
+      context: dart2ast-engine
+      dockerfile: Dockerfile
+  
+  kotlin2ast:
+    build: 
+      context: kotlin2ast-engine
+      dockerfile: Dockerfile
